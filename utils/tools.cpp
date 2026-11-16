@@ -6772,7 +6772,7 @@ double random_double_exponential_distribution(double mean, int *rstream)
 int random_int_geometric_from0(double p)
 {
     if (p == 1)
-        return 1;
+        return 0;
     
     // generate random number
     double dum;
